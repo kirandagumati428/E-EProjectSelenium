@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55288" started-at="2022-11-18T15:25:59 IST" finished-at="2022-11-18T15:26:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55288" started-at="2022-11-18T15:25:59 IST" finished-at="2022-11-18T15:26:54 IST">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="intizliseBroswer()[pri:0, instance:Academy.Homepage@545997b1]" name="intizliseBroswer" is-config="true" duration-ms="17742" started-at="2022-11-18T15:25:59 IST" finished-at="2022-11-18T15:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intizliseBroswer -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.Homepage@545997b1]" name="basePageNavigation" duration-ms="20298" started-at="2022-11-18T15:26:17 IST" data-provider="getdata" finished-at="2022-11-18T15:26:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonresticteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123464]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Resticted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.Homepage@545997b1]" name="basePageNavigation" duration-ms="16648" started-at="2022-11-18T15:26:37 IST" data-provider="getdata" finished-at="2022-11-18T15:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[resticteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4676862]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non Resticted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="getclose()[pri:0, instance:Academy.Homepage@545997b1]" name="getclose" is-config="true" duration-ms="403" started-at="2022-11-18T15:26:54 IST" finished-at="2022-11-18T15:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getclose -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
